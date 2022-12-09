@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="styles.css" rel="stylesheet" />
+
+    <title>Frontend Mentor | Order summary card</title>
+  </head>
+  <body>
+    <div class="container">
+      <!--This container will contain my whole card-->
+      <div class="hero">
+        <!--This second container will contain my image-->
+        <img
+          src="images/illustration-hero.svg"
+          alt="A girl listening to music"
+        />
+      </div>
+
+      <div class="text-content">
+        <!--The whole card's text content-->
+        <h2 class="title">Order Summary</h2>
+        <p class="subtitle">
+          You can now listen to millions of songs, audiobooks, and podcasts on
+          any device anywhere you like!
+        </p>
+
+        <!--The whole minibox of the annual plan-->
+        <div class="annual-plan">
+          <!--The content of the minibox-->
+          <div class="annual-content">
+            <!--The image of the box (music icon)-->
+            <img src="images/icon-music.svg" alt="music icon" />
+            <!--The text of the box-->
+            <div>
+              <h5>Annual Plan</h5>
+              <p>$59.99/year</p>
+            </div>
+          </div>
+
+          <a href="#">Change</a> <!--We're still inside the whole annual box but not in the content box-->
+        </div>
+        <!--Now we're out of the whole box of the annual plan-->
+            <a href="#" class="payment-btn">Proceed to Payment</a>
+            <a href="#" class="cancel-btn">Cancel Order</a>
+        
+      </div>
+    </div>
+  </body>
+</html>
